@@ -147,3 +147,11 @@ permet d'afficher la clé ssh:
 ```
 $ cat id_ed25519.pub
 ```
+
+etape pour save, toujours faire controle + s:
+```
+git add .
+git commit
+:x
+git push
+```
