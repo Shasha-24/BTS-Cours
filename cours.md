@@ -155,3 +155,10 @@ git commit
 :x
 git push
 ```
+
+Pour avoir les notes d'un de mes camarades:
+```
+cd ..
+git clone 'url du site'
+code notes-sio/
+```
