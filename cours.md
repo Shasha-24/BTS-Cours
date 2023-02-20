@@ -62,6 +62,7 @@ ajouter un email:
 ```
 git config --global user.email shayma.merzougui@ecole-isitech.fr
 ```
+
 créer un commit avec comme message "first commit"
 ```
 git commit -m "first commit"
@@ -97,6 +98,7 @@ Avanr de sauvegarder les modifications, il faut ajouter les modifications que l'
 La sauvegarde s'effectue ensuite avec la commande:
 ```
 git commit -m "message de commit
+```
 
 Sauvegarder le commit dans l'editeur de texte:
 ```
@@ -104,7 +106,7 @@ Sauvegarder le commit dans l'editeur de texte:
 ```
 
 chemin absolus, donc deplace toi a tel endroit. Chemin relatif commence tu chemin ou je suis 
-```
+
 
 
 envoyer sur l'origine:
@@ -145,9 +147,3 @@ permet d'afficher la clé ssh:
 ```
 $ cat id_ed25519.pub
 ```
-
-
-Resume:
-
-git init: La commande `git init` permet d'initialiser un depot GIT dans le local courant.
-
