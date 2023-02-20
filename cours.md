@@ -162,3 +162,7 @@ cd ..
 git clone 'url du site'
 code notes-sio/
 ```
+récuperer de l'externe:
+```
+git pull
+```
