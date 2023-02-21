@@ -1,4 +1,4 @@
-### Dev web
+## Dev web
 
 ceci est une commande :
 ``` shell
@@ -166,3 +166,34 @@ récuperer de l'externe:
 ```
 git pull
 ```
+
+## HTML
+
+Permet de structurer les pages web
+
+page web basic:
+```
+html 5 + tab = 
+```
+
+c’est une balise qui est constituer d’une partit ouvrante et fermante
+
+afficher du texte:
+```html
+<p> "le texte" </p>
+```
+
+Un élément HTML est composé d'une balise d'ouverture et une balise de fermeture 
+
+certain elements HTML n'ont pas de balise fermante:
+```html 
+<hr>
+```
+
+Chaque element HTML peut avoir un ou plusieur attributs, ajout de photo:
+```
+<p id="test"> ceci est un paragraphe </p>
+
+<img src="images/images.jpg" alt="image not found" title="titre de l'image>
+```
+
