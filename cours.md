@@ -203,4 +203,68 @@ Chaque element HTML peut avoir un ou plusieur attributs, ajout de photo:
 <header></header>
 ```
 
+L'element <html> est l'element racine des pages HTML. 
 
+L'element head:
+
+Il contient des proprietes essentielles pour les page web.
+
+Chacune de ces proprietes est renseigner avec des éléments enfants 
+
+
+toujours mettre:
+```
+</body>
+</html>
+```
+
+dans une grosse boite donc <html> il y a 2 petite boites, 
+head et body, head sont les elements non visible mais necessaire, body lui sont les elements visible 
+
+
+
+
+Conception d'une page web
+
+Pour concevoir vos pages, vous devez réfléchir  en termes de " conteneur". Un conteneur, comme son nom l'indique, inclut un contenu de type très varié.
+
+Da,s ces conteneurs, vous pourrez placer du texte, des images, des formulaires, des liens, des tableaux.... Mais vous pourrez aussi avoir des conteneurs plus " petits " comme pour mettre uen evidence un ou plusieur mots, ou oiur définir une cellule de tableau .
+
+L'element <div> est un des conteneurs les plus anciens du HTML. Il permet de créer une division structurelle dans la page.
+Dans ces divisions, nous pouvons placer d'importe quel contenu et même d'autres conteneurs comme d'autres division <div>, des paragrapges, des listes.... Ces divisions permettaient d'effectuer des mises en page à l'aide de conteneurs " neutre ", c'est a dire sans element definit 
+
+### l'element header
+
+L'element " header " permert d'insérer une zine d"affichage pour les pieds de page. Nous retrouvons la même sémantique que pour les entêtes.
+Ces pieds de page peuvent être définis pour la page
+
+### L'element nav
+
+L'element " nav ", comme son nom le laisse supposer, est décider a l'affichage d'une barre de navigation avec des liens hypertextes. Mais attention, ne vous sentez pas obliger de n'avoir qu'une seule zone de navigation par page, à partir du momment ou chacun d'entre eux est bien identifier. 
+
+creer un tableau:
+```
+<pre> </pre>
+```
+
+permet d'ouvrir dans une nouvelle fenetre:
+```
+`target="_blank"`
+```
+
+## CSS
+
+Le role du CSS:
+
+On peut appliquer du style a certains elements a l'aide l'attribut class. En CSS on cible les elements dont la classe est test de la maniere suivante:
+```CSS 
+.test {
+     test -transform: uppercase;
+}
+```
+
+On peut aussi en CSS appliquer du style de maniere specifique grace a l'attribut html id:
+```CSS
+#test {
+     /*ceci est un commentaire */
+}
