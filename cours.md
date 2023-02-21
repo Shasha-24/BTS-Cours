@@ -171,7 +171,7 @@ git pull
 
 Permet de structurer les pages web
 
-page web basic:
+page web basic, dans index.html :
 ```
 html 5 + tab = 
 ```
@@ -268,3 +268,40 @@ On peut aussi en CSS appliquer du style de maniere specifique grace a l'attribut
 #test {
      /*ceci est un commentaire */
 }
+```
+
+
+#### Structure et regles du CSS
+
+```
+selecteur {
+     props: valeur
+}
+```
+Les selecteurs:
+- ne doivent pas commencr par un chiffre
+- ne peuventpas contenur d'espace, de caractères speciaux, de caracteres avecc accents
+- peuvent contenir des '-' et des '_'
+-sont sensibles a la casse 
+
+Les expressions regulieres
+lien: https://developer.mozilla.org/fr/docs/Glossary/Regular_expression
+
+#### Les selecteurs de pseudo-classes
+
+changer la couleur:
+```
+a:visited{
+     color: rgb(32,92,11);
+     background-color: aqua;
+}
+```
+
+autre exemple:
+```
+a:hover{
+     color: rgb(171,129,95)
+     background-color: green;
+}
+```
+asset: imagine, document etc..
