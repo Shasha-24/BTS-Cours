@@ -195,5 +195,12 @@ Chaque element HTML peut avoir un ou plusieur attributs, ajout de photo:
 <p id="test"> ceci est un paragraphe </p>
 
 <img src="images/images.jpg" alt="image not found" title="titre de l'image>
+
 ```
+ permet de faire une bande au dessus de notre texte:
+
+```
+<header></header>
+```
+
 
