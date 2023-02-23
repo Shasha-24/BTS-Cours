@@ -305,3 +305,20 @@ a:hover{
 }
 ```
 asset: imagine, document etc..
+
+
+
+mettre les images cote a cote:
+```
+display flex
+```
+
+les espacer, les centrer et tout le reste:
+```
+Justify-content
+```
+
+recuperer sur le serveru des donnee faite par d'autre personnes
+```
+git pull
+```
