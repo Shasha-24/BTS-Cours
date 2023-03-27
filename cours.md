@@ -1,5 +1,8 @@
 ## Dev web
 
+https://developer.mozilla.org/fr/docs/Web/HTML
+toute les doc concernant le dev
+
 ceci est une commande :
 ``` shell
     mkdir test
@@ -7,7 +10,7 @@ ceci est une commande :
 
 Ceci est du code:
 ``` javascript 
-const test = 'Hello Xord';
+const test = 'Hello ord';
 ``` 
 
 La commande `git init` permet d'initialiser un depot GIT dans le local courant.
@@ -318,7 +321,67 @@ les espacer, les centrer et tout le reste:
 Justify-content
 ```
 
-recuperer sur le serveru des donnee faite par d'autre personnes
+recuperer sur le serveur des donnee faite par d'autre personnes
 ```
 git pull
 ```
+
+
+
+Pour cloner un fichier 
+
+```
+Trouver le fichier
+appuyer sur code 
+copier le lien 
+dans le terminale faire cd ..
+puis faire git clone “ et l’adresse copier”
+
+```
+
+JavaScript: 
+
+```
+javascript —> But du js manipuler le dom
+
+html/css/js —> ce qui est afficher sur notre site
+
+index.js
+
+Les variables doivent êtres écrites en CamelCase
+
+notation des variable : var maVariable = “Bonjour”;
+
+soit on met des “;” de partout soit nul part 
+
+réaffectation : redonner une valeur avec “=”
+
+```
+
+```
+📌 différence entre let et const = 
+- const empêche la réassignation
+-let est une variable qui peut être réaffecter
+
+```
+
+
+```
+📌 variable : 
+—> mieux contrôler la portée des variables
+—> réduisent les risques d’erreurs
+—>mieux gérer
+```
+
+
+<aside>
+👌🏼 Types de données en JS :
+
+- Les chaînes de caractère (string) : utilisée pour stocker du texte.
+- Les nombres (number): utilisés pour stocker des nombres
+- Les booléens (Boolean): utilisé pour stocker des valeurs vraies ou fausses
+- Les tableaux (array): utilisé pour stocker plusieurs valeur dans une seule variable
+- Les objets (object) : utilisé pour stocker des données complexe
+</aside>
+
+
