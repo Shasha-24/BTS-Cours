@@ -374,7 +374,7 @@ réaffectation : redonner une valeur avec “=”
 ```
 
 
-<aside>
+```
 👌🏼 Types de données en JS :
 
 - Les chaînes de caractère (string) : utilisée pour stocker du texte.
@@ -382,6 +382,7 @@ réaffectation : redonner une valeur avec “=”
 - Les booléens (Boolean): utilisé pour stocker des valeurs vraies ou fausses
 - Les tableaux (array): utilisé pour stocker plusieurs valeur dans une seule variable
 - Les objets (object) : utilisé pour stocker des données complexe
-</aside>
+```
+
 
 
